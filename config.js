@@ -14,7 +14,7 @@ const CONFIG = {
 	name: 'Hyeon',
 	imageBackground: true,
 	openInNewTab: false,
-	twelveHourFormat: true,
+	twelveHourFormat: false,
 
 	// Greetings
 	greetingMorning: 'Good morning,',

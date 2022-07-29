@@ -164,9 +164,10 @@ body {
   justify-content: center;
 }
 
+.separator,
 #hour,
-#separator,
-#minutes {
+#minutes,
+#seconds {
   font-size: var(--fg-primary);
   font-weight: bolder;
   color: var(--fg);
