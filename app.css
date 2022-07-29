@@ -173,6 +173,10 @@ body {
   color: var(--fg);
 }
 
+.separator {
+  color: var(--accent);
+}
+
 #month,
 #day {
   font-size: var(--fg-date);
