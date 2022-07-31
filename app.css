@@ -373,7 +373,15 @@ body {
 
   .button {
     grid-gap: 3vw;
-    padding-left: 100px;
-    padding-right: 100px;
+  }
+}
+
+@media only screen and (max-aspect-ratio: 3/4) {
+  .timeBlock {
+    grid-column: 1 / span 6;
+  }
+
+  .weatherBlock {
+    grid-column: 1 / span 6;
   }
 }
