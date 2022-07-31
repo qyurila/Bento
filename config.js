@@ -59,72 +59,33 @@ const CONFIG = {
 		},
 		{
 			id: '2',
+			name: 'Scoop',
+			icon: 'terminal',
+			link: 'https://scoop.sh/',
+		},
+		{
+			id: '3',
+			name: 'DevDocs',
+			icon: 'file-search',
+			link: 'https://devdocs.io/',
+		},
+		{
+			id: '4',
+			name: 'YouTube',
+			icon: 'youtube',
+			link: 'https://www.youtube.com/',
+		},
+		{
+			id: '5',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
-		},
-		{
-			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
-		},
-		{
-			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
-		},
-		{
-			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			link: 'https://mail.google.com/',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
-		},
-	],
-
-	secondButtonsContainer: [
-		{
-			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
-		},
-		{
-			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
-		},
-		{
-			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
-		},
-		{
-			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
-		},
-		{
-			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
-		},
-		{
-			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
+			name: 'Google Sheets',
+			icon: 'table-2',
+			link: 'https://docs.google.com/spreadsheets/',
 		},
 	],
 
@@ -139,20 +100,20 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'YouTube Music',
+					link: 'https://music.youtube.com/',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: '🎵RMfW',
+					link: 'https://music.youtube.com/playlist?list=PLt4PlBZPJX7Hsx3Ls8CCg9S293Jft3BhG',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Bandcamp',
+					link: 'https://bandcamp.com/rea9lizer',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'SoundCloud',
+					link: 'https://soundcloud.com/',
 				},
 			],
 		},
@@ -161,20 +122,20 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'MonkeyType',
+					link: 'https://monkeytype.com/',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'TickTick',
+					link: 'https://ticktick.com/',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'DEV',
+					link: 'https://dev.to/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Barter.vg',
+					link: 'https://barter.vg',
 				},
 			],
 		},
