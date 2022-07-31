@@ -333,6 +333,11 @@ body {
 /* M E D I A - Q U E R I E S */
 
 @media only screen and (max-width: 68.75em) {
+  .withImageBackground {
+    background-position: left 20% bottom;
+    background-size: auto 125%
+  }
+
   .container {
     grid-gap: 20px;
     padding: 40px;
