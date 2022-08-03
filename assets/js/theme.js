@@ -42,6 +42,10 @@ if (CONFIG.imageBackground) {
 	document.body.classList.add('withImageBackground');
 }
 
+if (CONFIG.forceDarkTheme) {
+	enableDark();
+}
+
 if (CONFIG.changeThemeByOS && CONFIG.autoChangeTheme) {
 	if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
 		enableDark();
