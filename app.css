@@ -214,7 +214,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  grid-gap: 1.5rem;
+  grid-gap: 2vh;
 }
 
 .linksBlockLeft {
@@ -233,8 +233,8 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-gap: 30px;
-  padding: 20px;
+  grid-gap: 3vh;
+  padding: 2vh;
 }
 
 .button {
@@ -287,7 +287,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-gap: 3rem;
+  grid-gap: 5vh;
   padding: 0.4rem;
 }
 
@@ -318,7 +318,7 @@ body {
   font-size: var(--fg-list);
   color: var(--fg);
   margin-top: 1vh;
-  padding: 8px 12px;
+  padding: 1vh 12px;
   border-radius: 5px;
   font-weight: bold;
   text-align: center;
