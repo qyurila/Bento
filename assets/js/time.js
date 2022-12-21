@@ -5,30 +5,32 @@
 
 window.onload = displayClock();
 function displayClock() {
-	const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+	const monthNames = [
+		'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
+	];
 
-	var d = new Date();
-	var mm = monthNames[d.getMonth()];
-	var dd = d.getDate();
-	var min = (mins = ('0' + d.getMinutes()).slice(-2));
-	var sec = (secs = ('0' + d.getSeconds()).slice(-2));
-	var hh = d.getHours();
-	var ampm = '';
+	const date = new Date();
+	const month = monthNames[date.getMonth()];
+	const day = date.getDate();
+	const min = date.getMinutes().toString().padStart(2, '0');
+	const sec = date.getSeconds().toString().padStart(2, '0');
+	let hour = date.getHours().toString().padStart(2, '0');
+	let ampm = '';
 
 	if (CONFIG.twelveHourFormat) {
-		ampm = hh >= 12 ? ' pm' : ' am';
-		hh = hh % 12;
-		hh = hh ? hh : 12;
+		ampm = hour >= 12 ? ' pm' : ' am';
+		hour = hour % 12;
+		hour = hour === 0 ? 12 : hour;
 	}
 
-	document.getElementById('hour').innerText = hh;
+	document.getElementById('hour').innerText = hour;
 	document.getElementById('minutes').innerText = min;
 	document.getElementById('seconds').innerText = sec + ampm;
 
 	document.querySelectorAll('.separator').forEach((x) => x.innerHTML = ' : ');
 
-	document.getElementById('month').innerText = mm;
-	document.getElementById('day').innerText = dd;
+	document.getElementById('month').innerText = month;
+	document.getElementById('day').innerText = day;
 
 	setTimeout(displayClock, 1000);
 }
