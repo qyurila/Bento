@@ -103,7 +103,7 @@ const CONFIG = {
 			links: [
 				{
 					name: 'YouTube Music',
-					link: 'https://music.youtube.com/',
+					link: 'https://music.youtube.com',
 				},
 				{
 					name: '🎵RMfW',
@@ -115,7 +115,7 @@ const CONFIG = {
 				},
 				{
 					name: 'SoundCloud',
-					link: 'https://soundcloud.com/',
+					link: 'https://soundcloud.com',
 				},
 			],
 		},
@@ -125,67 +125,19 @@ const CONFIG = {
 			links: [
 				{
 					name: 'MonkeyType',
-					link: 'https://monkeytype.com/',
-				},
-				{
-					name: 'TickTick',
-					link: 'https://ticktick.com/',
-				},
-				{
-					name: 'DEV',
-					link: 'https://dev.to/',
-				},
-				{
-					name: 'Barter.vg',
-					link: 'https://barter.vg',
-				},
-			],
-		},
-	],
-
-	// Second Links Container
-	secondListsContainer: [
-		{
-			icon: 'binary',
-			id: '1',
-			links: [
-				{
-					name: 'Spotify',
-					link: 'https://www.spotify.com',
+					link: 'https://monkeytype.com',
 				},
 				{
 					name: 'Reddit',
 					link: 'https://www.reddit.com',
 				},
 				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
+					name: 'Medium',
+					link: 'https://medium.com',
 				},
 				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
-				},
-			],
-		},
-		{
-			icon: 'github',
-			id: '2',
-			links: [
-				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
-				},
-				{
-					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
-				},
-				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
-				},
-				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
+					name: 'GeekNews',
+					link: 'https://news.hada.io',
 				},
 			],
 		},
